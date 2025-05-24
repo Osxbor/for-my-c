@@ -2,7 +2,6 @@
 import { onMounted } from 'vue';
 import { gsap } from 'gsap';
 
-const props = defineProps<{}>();
 const emit = defineEmits(['reveal']);
 
 // Animate only the title when mounted
